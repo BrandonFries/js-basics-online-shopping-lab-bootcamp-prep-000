@@ -66,9 +66,9 @@ return b
 
 
  function placeOrder(cardNumber) {
-   var cardnumber = {83296759}
+   var cardnumber = '83296759'
    if ( cardnumber != undefined){
-     var v = {total()}
+     var v = '{total()'
      cart.length = 0;
      return "Your total cost is $${v}, which will be charged to the card ${cardnumber}."
    }
