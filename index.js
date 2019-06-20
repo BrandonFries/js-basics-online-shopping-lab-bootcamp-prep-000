@@ -50,7 +50,7 @@ return string
    for (var i = 0; i < cart.length; i++) {
      b += cart[i][Object.keys(cart[i])]
    }
-return b
+return b;
  }
 
 
