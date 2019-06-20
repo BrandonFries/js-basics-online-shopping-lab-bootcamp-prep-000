@@ -68,5 +68,5 @@ return b
    }
    var cost = total();
    cart = [];
-   return 'Your total cost is ' + cost ', which will be charged to the card' + cardNumber.;
+   return 'Your total cost is ' + cost + ', which will be charged to the card' + cardNumber.;
  }
