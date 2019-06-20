@@ -66,6 +66,10 @@ return b
 
 
  function placeOrder(cardNumber) {
-     if (cart.length === 0);
-     return "Sorry, we don't have a credit card on file for you.";
+   if (cardnumber != undefined) {
+     var value = total()
+     cart.length = 0;
+     return "Sorry, we don't have a credit card on file for you."
    }
+   }
+   
