@@ -70,7 +70,7 @@ return b
    if(!cardNumber) {
      return "Sorry, we dont have a credit card on file for you.";
    }
-   var order = 'Your total cost is $' + total() + 'which will be charged to the card '+ cardNumber + '.';
+   var order = 'Your total cost is $ ' + total() + 'which will be charged to the card '+ cardNumber + '.';
    cart = [];
    return order
 
