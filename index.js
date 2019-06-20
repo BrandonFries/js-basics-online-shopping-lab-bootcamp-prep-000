@@ -67,5 +67,5 @@ return b
 
  function placeOrder(cardNumber) {
      if (cart.length === 0);
-     return "Sorry, we dont have a credit card on file for you.";
+     return "Sorry, we don't have a credit card on file for you.";
    }
