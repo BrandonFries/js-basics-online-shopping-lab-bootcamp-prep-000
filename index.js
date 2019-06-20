@@ -68,8 +68,13 @@ return b
  function placeOrder(cardNumber) {
    cardNumber = Math.random()
    if (cardNumber != undefined) {
-     var value = total()
      cart.length = 0;
      return "Sorry, we don't have a credit card on file for you."
+   }
+   else {
+     var value = total()
+     setCart([])
+     return "Your total cost is $${value}, which willbe charged to the card ${cardNumber}"
+     
    }
    }
