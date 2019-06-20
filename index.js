@@ -58,4 +58,3 @@ return string
  function placeOrder(cardNumber) {
 
  }
-1
