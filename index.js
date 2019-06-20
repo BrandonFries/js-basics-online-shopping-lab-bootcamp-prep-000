@@ -17,7 +17,7 @@ function addToCart(item) {
   cart.push({
     [item] : itemPrice,
     itemName: item,
-    itemPrice: Math.floor(Math.random() * 100 + 1)
+    itemPrice: Math.floor(Math.random() * 100 + 1);
   })
   return(item + " has been added to your cart.")
 
@@ -28,7 +28,7 @@ function viewCart() {
     return "Your shopping cart is empty."
   }
   var newitems = [];
-  for (var i = 0; i < cart.length;) {
+  for (var i = 0; i < cart.length; i++) {
     var obj = Object.keys(cart[i])[0]
      newitems.push( obj + " at $" + cart[i][obj])
   }
