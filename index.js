@@ -66,6 +66,7 @@ return b
 
 
  function placeOrder(cardNumber) {
+   var cardnumber = 83296759
    if ( cardnumber != undefined){
      var v = total()
      cart.length = 0;
