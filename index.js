@@ -61,13 +61,13 @@ return b
      }
    }
    return 'That item is not in your cart.'
-
  }
-
-
  function placeOrder(cardNumber) {
-   cardNumber = Math.random()
-   if (cardNumber != undefined) {
-     cart.length = 0;
+   if (cardNumber === undefined) {
      return "Sorry, we don't have a credit card on file for you."
    }
+   var cost = total();
+   cart = [];
+   return 'Your total cost is $${totalCost}, which will be charged to the card ${cardNumber}.';
+ }
+  
