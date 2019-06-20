@@ -17,7 +17,7 @@ function addToCart(item) {
   cart.push({
     [item] : itemPrice,
     itemName: item,
-    itemPrice: Math.floor() * 100 + 1)
+    itemPrice: (Math.floor() * 100 + 1)
   })
   return(item + " has been added to your cart.")
 
