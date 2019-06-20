@@ -71,7 +71,7 @@ return b
      var v = total()
      cart.length = 0;
      return "Your total cost is " + v + ", which will be charged to the card " + cardnumber + "."
-   else
+   }else {
      return "Sorry, we don't have a credit card on file for you"
    }
 
