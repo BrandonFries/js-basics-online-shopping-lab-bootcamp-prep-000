@@ -75,6 +75,6 @@ return b
      var value = total()
      setCart([])
      return "Your total cost is $${value}, which willbe charged to the card ${cardNumber}"
-     
+
    }
    }
