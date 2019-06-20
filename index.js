@@ -36,7 +36,7 @@ function viewCart() {
   if (newitems.length === 1) {
   string += newitems + "."
 } else if (newitems.length === 2) {
-  string += (newitems[0] + " and " + newitems[1] + ".")
+  string += (newitems[0] + ", and " + newitems[1] + ".")
 } else if (newitems.length > 2) {
   var lastitem = newitems.pop()
   var miditems = newitems.join(", ")
