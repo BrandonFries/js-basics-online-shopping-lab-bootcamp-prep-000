@@ -70,7 +70,7 @@ return b
    if ( cardnumber != undefined){
      var v = total()
      cart.length = 0;
-     return "Sorry, we don't have a card on file for you."
+     return "Sorry, we don't have a credit card on file for you."
    }else {
      return "Your total cost is " + v + ", which will be charged to the card " + cardnumber + "."
    }
