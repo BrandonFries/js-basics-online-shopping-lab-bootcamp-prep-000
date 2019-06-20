@@ -46,7 +46,11 @@ return string
 }
 
  function total() {
-
+   var b = 0
+   for (var i = 0; i < cart.length; i++) {
+     b += cart[i][Object.keys(cart[i])]
+   }
+return b
  }
 
 
