@@ -71,4 +71,3 @@ return b
      cart.length = 0;
      return "Sorry, we don't have a credit card on file for you."
    }
-   
