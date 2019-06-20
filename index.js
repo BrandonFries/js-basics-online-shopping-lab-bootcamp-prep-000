@@ -71,7 +71,7 @@ return b
      cart.length = 0;
      return "Sorry, we don't have a credit card on file for you."
    }
-   else if {
+   else if 
    var value = total()
      setCart([])
      return "Your total cost is $${value}, which willbe charged to the card ${cardNumber}"
